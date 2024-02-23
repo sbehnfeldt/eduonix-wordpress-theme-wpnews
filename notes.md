@@ -13,3 +13,5 @@ NOTE: This template uses dummy images from lorempixel.com, which is no longer op
 Created theme with index.php and style.css.  Added screenshot.png.  Added support in functions.php for primary menu.
 Extracted head.php, header.php and footer.php partial templates.
 
+## Lesson 70) Main Post Loop
+Add support for post thumbnails along with a custom image size.  Convert the static "Recent Posts" to dynamic, using a post loop
