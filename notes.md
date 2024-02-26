@@ -19,3 +19,9 @@ Add support for post thumbnails along with a custom image size.  Convert the sta
 ## Lesson 71) Custom Query Loops
 Added custom query loops for the various sections.  Added more custom image sizes for the various sections.
 Also had to do some styling on the images (not part of the lesson) to get them to be the right size.
+
+## Lesson 72) Single Post Page
+Single page template, with sidebar and comments.
+
+Noticed the warning "Function the_block_template_skip_link is deprecated".  Grepping for this function in the code uncovered a note in default-filters.php
+that it can be un-hooked by calling wp_enqueue_block_template_skip_link(), which I then added to functions.php.

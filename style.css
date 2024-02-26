@@ -10,3 +10,92 @@
 .popular-posts img {
     width: 100%;
 }
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 3px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar {
+    margin-left: 1rem;
+    padding: .5rem;
+}
+
+.sidebar .side-widget {
+    margin-bottom: 2.5rem;
+}
+
+.sidebar h3 {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+ul.wp-block-categories-list,
+ul.wp-block-archives-list {
+    list-style: none;
+}
+
+
+ul.wp-block-categories-list li,
+ul.wp-block-archives-list li {
+    margin: initial;
+    padding: .25rem;
+    border-bottom: 1px dotted #ccc;
+}
+
+.comments {
+    border: 1px #ccc solid;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.comments h2,
+.comments h3 {
+    background: #f4f4f4;
+    color: #333;
+    padding: .5rem;
+}
+
+.comment-body {
+    border: #ccc 1px solid;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+}
+
+.comment-meta {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 1rem;
+}
+.comment-meta time {
+    margin-left: 1.2rem;
+}
+
+.comment-reply-link {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 3px;
+    border: #ccc 1px solid;
+    margin-bottom: 2rem;
+}
