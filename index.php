@@ -10,7 +10,9 @@
 		<div class="panel">
 			<div class="control-group append-button">
 				<div class="control all-100">
-					<input type="text" name="s" placeholder="Search news...">
+					<form method="get" action="<?php echo esc_url(home_url('/')); ?>">
+						<input type="text" name="s" placeholder="Search news...">
+					</form>
 				</div>
 			</div>
 		</div>

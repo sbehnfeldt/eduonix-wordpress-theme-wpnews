@@ -25,3 +25,6 @@ Single page template, with sidebar and comments.
 
 Noticed the warning "Function the_block_template_skip_link is deprecated".  Grepping for this function in the code uncovered a note in default-filters.php
 that it can be un-hooked by calling wp_enqueue_block_template_skip_link(), which I then added to functions.php.
+
+## Lesson 73) Archive, Search & Pages
+Added Archive, Search Results and Page templates. 
