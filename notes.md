@@ -15,3 +15,7 @@ Extracted head.php, header.php and footer.php partial templates.
 
 ## Lesson 70) Main Post Loop
 Add support for post thumbnails along with a custom image size.  Convert the static "Recent Posts" to dynamic, using a post loop
+
+## Lesson 71) Custom Query Loops
+Added custom query loops for the various sections.  Added more custom image sizes for the various sections.
+Also had to do some styling on the images (not part of the lesson) to get them to be the right size.

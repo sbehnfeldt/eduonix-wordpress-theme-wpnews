@@ -5,3 +5,8 @@
  Description: News theme for WordPress
  Version: 1.0
  */
+
+.ink-carousel img,
+.popular-posts img {
+    width: 100%;
+}
